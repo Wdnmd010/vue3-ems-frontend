@@ -1,0 +1,41 @@
+# 依赖目录
+node_modules/
+
+# 构建产物
+dist/
+dist-ssr/
+
+# 环境变量（可能含敏感配置，禁止提交）
+.env
+.env.local
+.env.*.local
+
+# 日志与缓存
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+.vite/
+
+# 编辑器 / 系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 压缩包（避免把本地备份传上去）
+*.zip
+*.7z
+*.rar
+
+# AI 助手工作目录（非项目内容）
+.workbuddy/
+
+# UI 验收截图（约 20MB 的过程产物，仓库不需要）
+.screenshots/
+
+# 个人实训报告（仅保留在本地，不纳入版本管理、不上传仓库）
+/实训报告统一格式.doc
+/Vue3_ElementPlus_企业员工资料管理系统_实训报告_修正总页数.docx
